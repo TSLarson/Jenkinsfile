@@ -48,6 +48,8 @@
     * Gradle has many plugins that allow tasks, such as adding your deployable artifact or pushing your app to Cloud Foundry, to be run simply by providing the config info to the plugin
     * Allows for a clean pipeline
 
+  3. Use 'Pipeline Syntax' to help generate syntax for various tasks
+
 #HSLIDE
 ### Let's get Started!!!
   1. Test stage
@@ -56,8 +58,20 @@
   4. Deploy Dev
   5. Conveyor
   6. Manual Deploy to Production
+
+#HSLIDE
+### Test Stage#HSLIDE
+### Test Stage
+![Test Step 1](pics/TestStep1.jpg)
+
 #HSLIDE
 ### Test Stage
+![Test Step 2](pics/TestStep2.jpg)
+
+
+#HSLIDE
+### Test Stage
+![Test Step 3](pics/TestStep3.jpg)
 
 
 #HSLIDE
@@ -67,6 +81,8 @@
 
 #HSLIDE
 ### Storing Credentials on Jenkins
+
+
 
 
 #HSLIDE
