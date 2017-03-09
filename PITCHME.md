@@ -13,17 +13,13 @@
     * Deployments are less error-prone and more repeatable
     * Anyone on the team can deploy software
     * Devs spend time developing (instead of performing a time-consuming, thankless task)
-    * More frequent releases (Continuous Delivery)  
+    * More frequent releases 
 
 #HSLIDE
-### Jenkins, Continuous Delivery
+### Jenkinsfile
+  *
 
 
-### Jenkins, Continuous Delivery, and a Jenkinsfile
-
-
-
- * Pictures of Jenkins...
  * Where does a Jenkinsfile go...?
 
 #HSLIDE
