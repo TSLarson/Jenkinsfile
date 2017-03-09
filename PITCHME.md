@@ -2,10 +2,12 @@
 ## Compozed Global Lunch and Learn
 ### Jenkinsfile
 
-![jenkins](pics/jenkins.jpeg)
+![Jenkins](pics/jenkins.jpg)
 
 #HSLIDE
 ### Jenkins, Continuous Delivery, and a Jenkinsfile
+
+
  * Pictures of Jenkins...
  * Where does a Jenkinsfile go...?
 #HSLIDE
