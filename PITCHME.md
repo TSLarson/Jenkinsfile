@@ -19,7 +19,7 @@
 ### Jenkinsfile
   * Life before a Jenkinsfile:
 
-![Life before a Jenkinsfile](pics/lifeBeforeJenkinsfile.jpg =100x150)
+<img src=pics/lifeBeforeJenkinsfile.jpg width=100 height=150 />
 
 
 #HSLIDE
