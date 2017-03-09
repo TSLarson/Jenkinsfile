@@ -65,25 +65,25 @@
 ### Test Stage
 ![Test Step 1](pics/TestStep1.jpg)
 ##Line 1. Allocate an executor and workspace for the pipeline
-  * Without node, the pipeline can't do any work!
+⋅⋅* Without node, the pipeline can't do any work!
 ##Line 2. Checkout the source code for this project
-  * This is a quick easy way to access the correct version of the source code
+⋅⋅* This is a quick easy way to access the correct version of the source code
   
 #HSLIDE
 ### Test Stage
 ![Test Step 1](pics/TestStep1.jpg)
 ##Line 3. Create a Test stage
- * This name displays as a step on your pipeline
+⋅⋅* This name displays as a step on your pipeline
 ##Line 5. Set up a docker container 
- * This tells it to run inside a specific docker image
+⋅⋅* This tells it to run inside a specific docker image
 
 #HSLIDE
 ### Test Stage
 ![Test Step 1](pics/TestStep1.jpg)
 ##Line 7-10. Set up your Credentials
-  * credentialsId is pulled from the Jenkins credentials store and by default is a rand GUID
-  * can be renamed to something more user friendly by adding variable
-  * grab credentials off environment by using env.DONT_FORGET_TO_ADD_VARIABLE
+⋅⋅* credentialsId is pulled from the Jenkins credentials store and by default is a rand GUID
+⋅⋅* can be renamed to something more user friendly by adding variable
+⋅⋅* grab credentials off environment by using env.DONT_FORGET_TO_ADD_VARIABLE
 ##ADD VARIABLE TO THIS REPO!!!    
 
 #HSLIDE
