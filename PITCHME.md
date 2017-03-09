@@ -5,11 +5,27 @@
 ![Jenkins](pics/jenkins.jpg)
 
 #HSLIDE
+### Jenkins
+  * Life before automating software deployment
+  * Jenkins Definition:
+    * Automation server which can be used to automate tasks such as building, testing, and deploying software
+  * Benefits of Automated Software:
+    * Deployments are less error-prone and more repeatable
+    * Anyone on the team can deploy software
+    * Devs spend time developing (instead of performing a time-consuming, thankless task)
+    * More frequent releases (Continuous Delivery)  
+
+#HSLIDE
+### Jenkins, Continuous Delivery
+
+
 ### Jenkins, Continuous Delivery, and a Jenkinsfile
+
 
 
  * Pictures of Jenkins...
  * Where does a Jenkinsfile go...?
+
 #HSLIDE
 ### Benefits of using a Jenkinsfile
  1. Easier to move to a new Jenkins instance
