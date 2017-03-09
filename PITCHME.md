@@ -19,12 +19,14 @@
 ### Jenkinsfile
   * Life before a Jenkinsfile:
 
-<img src=pics/lifeBeforeJenkinsfile.jpg width=300 height=500 />
+![JenkinsGUI](pics/lifeBeforeJenkinsfile.jpg)
 
+#HSLIDE
+### Jenkinsfile
   * A text file that contains the definition/steps of a Jenkins Pipeline and is checked into source control
   * Add to the root of the project
 
-<img src=pics/Where_is_a_jenkinsfile.jpg />
+![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)
 
 #HSLIDE
 ### Benefits of using a Jenkinsfile
