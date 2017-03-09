@@ -24,6 +24,8 @@
 #HSLIDE
 ### Jenkinsfile
   * A text file that contains the definition/steps of a Jenkins Pipeline and is checked into source control
+![Jenkinsfile Example](pics/JenkinsfileExample.jpg)
+
   * Add to the root of the project
 
 ![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)
