@@ -62,7 +62,7 @@
   6. Manual Deploy to Production
 
 #HSLIDE
-## Test Stage (Part 1: Setup)
+## Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
 ###Line 1: Allocate an executor and workspace for the pipeline
 ⋅⋅* Without node, the pipeline can't do any work!
@@ -70,7 +70,7 @@
 ⋅⋅* This is a quick easy way to access the correct version of the source code
   
 #HSLIDE
-## Test Stage (Part 1: Setup)
+## Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
 ###Line 3: Create a Test stage
   * This name displays as a step on your pipeline
@@ -78,7 +78,7 @@
   * This tells it to run inside a specific docker image
 
 #HSLIDE
-## Test Stage (Part 1: Setup)
+## Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
 ###Line 7-10: Set up your Credentials
   * credentialsId is pulled from the Jenkins credentials store and by default is a rand GUID
@@ -87,14 +87,14 @@
 ###ADD VARIABLE TO THIS REPO!!!    
 
 #HSLIDE
-### Test Stage (Part 2: Run Tests)
+### Test and Publish Stage (Part 2: Run Tests)
 ![Test Step 2](pics/TestStep2.jpg)
 ###Line 11: Create a stage fragment (Optional)
   * Appears in output of logs, helps organize statements, and helps with setting up jobs to run in parallel
 
 
 #HSLIDE
-### Test Stage
+### Test and Publish Stage
 ![Test Step 3](pics/TestStep3.jpg)
 ###Line 14-17: Install your dependencies
   * Note: all actions occur at the root of the project where the Jenkinsfile is located (don't forget to change directory into your client)
@@ -102,7 +102,10 @@
 ![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)  
 
 #HSLIDE
-### Publish Stage
+### Test and Publish Stage
+![Test Step 3](pics/TestStep3.jpg)
+###Line 18: Build
+###Line 19: Publish
 
 
 
