@@ -64,39 +64,39 @@
 #HSLIDE
 ### Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
-###1. Allocate an executor and workspace for the pipeline
+1. Allocate an executor and workspace for the pipeline
   * Without node, the pipeline can't do any work!
-###2. Checkout the source code for this project
+2. Checkout the source code for this project
   * This is a quick easy way to access the correct version of the source code
   
 #HSLIDE
 ### Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
-###3. Create a Test stage
+3. Create a Test stage
   * This name displays as a step on your pipeline
-###5. Set up a docker container 
+5. Set up a docker container 
   * This tells it to run inside a specific docker image
 
 #HSLIDE
 ### Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
-###7-10. Set up your Credentials
+7-10. Set up your Credentials
   * credentialsId is pulled from the Jenkins credentials store and by default is a rand GUID
   * can be renamed to something more user friendly by adding variable
   * grab credentials off environment by using env.DONT_FORGET_TO_ADD_VARIABLE
-###ADD VARIABLE TO THIS REPO!!!    
+ADD VARIABLE TO THIS REPO!!!    
 
 #HSLIDE
 ### Test and Publish Stage (Part 2: Run Tests)
 ![Test Step 2](pics/TestStep2.jpg)
-###11. Create a stage fragment (Optional)
+11. Create a stage fragment (Optional)
   * Appears in output of logs, helps organize statements, and helps with setting up jobs to run in parallel
 
 
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 3](pics/TestStep3.jpg)
-###14-17. Install your dependencies
+14-17. Install your dependencies
   * Note: all actions occur at the root of the project where the Jenkinsfile is located (don't forget to change directory into your client)
 
 ![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)  
@@ -104,8 +104,8 @@
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 3](pics/TestStep3.jpg)
-###18. Build
-###19. Publish to Artifactory
+18. Build
+19. Publish to Artifactory
 
 
 #HSLIDE
@@ -123,8 +123,6 @@
 ### Storing Credentials on Jenkins
 ![Add Credentials 3](pics/addCredentials3.jpg)
 
-
-
 #HSLIDE
 ### Storing Credentials on Jenkins
 ![Add Credentials 4](pics/addCredentials4.jpg)
@@ -137,8 +135,6 @@
 ### Accessing Credentials in a Jenkinsfile
 ![Using Pipeline Syntax Generator 2](pics/PipelineSyntax2.jpg)
   * In this example, you would access USERNAME in the Jenkinsfile by using env.MY_USERNAME
-
-
 
 #HSLIDE
 ### Deploying to Dev
