@@ -131,6 +131,13 @@
 
 #HSLIDE
 ### Accessing Credentials in a Jenkinsfile
+![Using Pipeline Syntax Generator 1](pics/PipelineSyntax1.jpg)
+
+#HSLIDE
+### Accessing Credentials in a Jenkinsfile
+![Using Pipeline Syntax Generator 2](pics/PipelineSyntax2.jpg)
+  * In this example, you would access USERNAME in the Jenkinsfile by using env.MY_USERNAME
+
 
 
 #HSLIDE
