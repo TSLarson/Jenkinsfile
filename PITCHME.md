@@ -45,7 +45,7 @@
 
 #HSLIDE
 ### Tips and Tricks
-  1. Name your Jenkinsfile with the .groovy ending so IntelliJ highlights and assists you
+  1. Name your Jenkinsfile with the .groovy ending so your IDE highlights and assists you
   2. Let Gradle do the heavy lifting
     * Gradle has many plugins that allow tasks, such as adding your deployable artifact or pushing your app to Cloud Foundry, to be run simply by providing the config info to the plugin
     * Allows for a clean pipeline
@@ -81,10 +81,8 @@
 ### Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
   * (Line 7-10) Set up your Credentials
-    * credentialsId is pulled from the Jenkins credentials store and by default is a rand GUID
-    * can be renamed to something more user friendly by adding variable
-    * grab credentials off environment by using env.DONT_FORGET_TO_ADD_VARIABLE
-ADD VARIABLE TO THIS REPO!!!    
+    * credentialsId is pulled from the Jenkins credentials store and by default is a random GUID
+    * can be specified to something more user friendly by adding variable
 
 #HSLIDE
 ### Test and Publish Stage (Part 2: Run Tests)
@@ -147,6 +145,8 @@ ADD VARIABLE TO THIS REPO!!!
 
 #HSLIDE
 ### Deploying to DEV
+![Dev Deploy](pics/devDeploy.jpg)
+
 
 
 
