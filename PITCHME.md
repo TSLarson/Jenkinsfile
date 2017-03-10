@@ -109,12 +109,18 @@ ADD VARIABLE TO THIS REPO!!!
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 3](pics/TestStep3.jpg)
-22-28. Run your server tests and then publish
+22-28. Run your server tests (using a custom gradle task) and then publish
+
+#HSLIDE
+### Test and Publish Stage
+![Test Step 4](pics/TestStep3.jpg)
+33. Add a checkpoint (Optional)
+  * Goes outside the node closure
+  * This tells Jenkins to save the current state so if it fails after this point it can be restarted at this checkpoint
 
 #HSLIDE
 ### Storing Credentials on Jenkins
 ![Add Credentials 1](pics/addCredentials1.jpg)
-
 
 #HSLIDE
 ### Storing Credentials on Jenkins
@@ -140,15 +146,19 @@ ADD VARIABLE TO THIS REPO!!!
   * In this example, you would access USERNAME in the Jenkinsfile by using env.MY_USERNAME
 
 #HSLIDE
-### Deploying to Dev
+### Deploying to DEV
+
+#HSLIDE
+### Manual Deployment to Higher Environments
+
+#HSLIDE
+### Deploying to UAT
+
 
 #HSLIDE
 ### Conveyor
 #### What is it, how does it work, and what are the benefits?
 
-
-#HSLIDE
-### Setting up a manual deployment to Production
 
 #HSLIDE
 ### fin.
