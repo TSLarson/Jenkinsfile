@@ -95,18 +95,21 @@ ADD VARIABLE TO THIS REPO!!!
 
 #HSLIDE
 ### Test and Publish Stage
-![Test Step 3](pics/TestStep3.jpg)
+![Test Step 2](pics/TestStep2.jpg)
 14-17. Install your dependencies
   * Note: all actions occur at the root of the project where the Jenkinsfile is located (don't forget to change directory into your client)
 
-![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)  
+
+#HSLIDE
+### Test and Publish Stage
+![Test Step 2](pics/TestStep2.jpg)
+18. Build
+19. Publish to Artifactory
 
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 3](pics/TestStep3.jpg)
-18. Build
-19. Publish to Artifactory
-
+22-28. Run your server tests and then publish
 
 #HSLIDE
 ### Storing Credentials on Jenkins
