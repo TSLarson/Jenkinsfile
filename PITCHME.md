@@ -64,23 +64,23 @@
 #HSLIDE
 ## Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
-###Line 1: Allocate an executor and workspace for the pipeline
+###1: Allocate an executor and workspace for the pipeline
 ⋅⋅* Without node, the pipeline can't do any work!
-###Line 2: Checkout the source code for this project
+###2: Checkout the source code for this project
 ⋅⋅* This is a quick easy way to access the correct version of the source code
   
 #HSLIDE
 ## Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
-###Line 3: Create a Test stage
+###3: Create a Test stage
   * This name displays as a step on your pipeline
-###Line 5: Set up a docker container 
+###5: Set up a docker container 
   * This tells it to run inside a specific docker image
 
 #HSLIDE
 ## Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
-###Line 7-10: Set up your Credentials
+###7-10: Set up your Credentials
   * credentialsId is pulled from the Jenkins credentials store and by default is a rand GUID
   * can be renamed to something more user friendly by adding variable
   * grab credentials off environment by using env.DONT_FORGET_TO_ADD_VARIABLE
@@ -89,14 +89,14 @@
 #HSLIDE
 ### Test and Publish Stage (Part 2: Run Tests)
 ![Test Step 2](pics/TestStep2.jpg)
-###Line 11: Create a stage fragment (Optional)
+###11: Create a stage fragment (Optional)
   * Appears in output of logs, helps organize statements, and helps with setting up jobs to run in parallel
 
 
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 3](pics/TestStep3.jpg)
-###Line 14-17: Install your dependencies
+###14-17: Install your dependencies
   * Note: all actions occur at the root of the project where the Jenkinsfile is located (don't forget to change directory into your client)
 
 ![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)  
@@ -104,15 +104,33 @@
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 3](pics/TestStep3.jpg)
-###Line 18: Build
-###Line 19: Publish
+###18: Build
+###19: Publish to Artifactory
+
+
+#HSLIDE
+### Storing Credentials on Jenkins
+![Add Credentials 1](pics/addCredentials1.jpg)
+
+
+#HSLIDE
+### Storing Credentials on Jenkins
+![Add Credentials 2](pics/addCredentials2.jpg)
+  * For passwords in your .yml file, use Secret Text
+  * For certs, use secret file 
+
+#HSLIDE
+### Storing Credentials on Jenkins
+![Add Credentials 3](pics/addCredentials3.jpg)
 
 
 
 #HSLIDE
 ### Storing Credentials on Jenkins
+![Add Credentials 4](pics/addCredentials4.jpg)
 
-
+#HSLIDE
+### Accessing Credentials in a Jenkinsfile
 
 
 #HSLIDE
