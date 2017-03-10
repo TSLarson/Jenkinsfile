@@ -80,43 +80,43 @@
 #HSLIDE
 ### Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
-7-10. Set up your Credentials
-  * credentialsId is pulled from the Jenkins credentials store and by default is a rand GUID
-  * can be renamed to something more user friendly by adding variable
-  * grab credentials off environment by using env.DONT_FORGET_TO_ADD_VARIABLE
+  * (Line 7-10) Set up your Credentials
+    * credentialsId is pulled from the Jenkins credentials store and by default is a rand GUID
+    * can be renamed to something more user friendly by adding variable
+    * grab credentials off environment by using env.DONT_FORGET_TO_ADD_VARIABLE
 ADD VARIABLE TO THIS REPO!!!    
 
 #HSLIDE
 ### Test and Publish Stage (Part 2: Run Tests)
 ![Test Step 2](pics/TestStep2.jpg)
-11. Create a stage fragment (Optional)
-  * Appears in output of logs, helps organize statements, and helps with setting up jobs to run in parallel
+  * (Line 11) Create a stage fragment (Optional)
+    * Appears in output of logs, helps organize statements, and helps with setting up jobs to run in parallel
 
 
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 2](pics/TestStep2.jpg)
-14-17. Install your dependencies
-  * Note: all actions occur at the root of the project where the Jenkinsfile is located (don't forget to change directory into your client)
+  * (Line 14-17) Install your dependencies
+    * Note: all actions occur at the root of the project where the Jenkinsfile is located (don't forget to change directory into your client)
 
 
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 2](pics/TestStep2.jpg)
-18. Build
-19. Publish to Artifactory
+  * (Line 18) Build
+  * (Line 19) Publish to Artifactory
 
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 3](pics/TestStep3.jpg)
-22-28. Run your server tests (using a custom gradle task) and then publish
+  * (Line 22-28) Run your server tests (using a custom gradle task) and then publish
 
 #HSLIDE
 ### Test and Publish Stage
 ![Test Step 4](pics/TestStep3.jpg)
-33. Add a checkpoint (Optional)
-  * Goes outside the node closure
-  * This tells Jenkins to save the current state so if it fails after this point it can be restarted at this checkpoint
+  * (Line 33) Add a checkpoint (Optional)
+    * Goes outside the node closure
+    * This tells Jenkins to save the current state so if it fails after this point it can be restarted at this checkpoint
 
 #HSLIDE
 ### Storing Credentials on Jenkins
