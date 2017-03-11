@@ -54,12 +54,15 @@
 
 #HSLIDE
 ### Let's get Started!!!
-  1. Test stage
-  2. Publish stage
-  3. How to store credentials on Jenkins
-  4. Deploy Dev
-  5. Conveyor
-  6. Manual Deploy to Production
+  1. Test and Publish Stage
+  2. How to store credentials on Jenkins
+  3. Deploy DEV
+  4. Manual Input to Deploy Next Stage
+  5. Deploy UAT
+  6. Veracode
+  7. Conveyor
+  8. Parallel Jobs
+  9. Demo
 
 #HSLIDE
 ### Test and Publish Stage (Part 1: Setup)
@@ -147,19 +150,35 @@
 ### Deploying to DEV
 ![Dev Deploy](pics/devDeploy1.jpg)
 
-
-
+#HSLIDE
+### Deploying to DEV
+  * Similar setup to Test and Publish
+  * Differences:
+    * Cloudfoundry variables in credentials
+    * Custom gradle task "fetchDeployableArtifact" is called
+    * ENV_SPACE is defined to cloudfoundry environment
+    * cfPush and cfStart
+        * given to us by adding cloudfoundry dependency to build.gradle
 
 #HSLIDE
 ### Manual Deployment to Higher Environments
+![Manual Deployment](pics/manualInput.jpg)
+  * This pauses your pipeline until manually triggered
+  * Lots of configurations for this stage
+    * Specify permissions for logged in user to trigger
 
 #HSLIDE
 ### Deploying to UAT
+![UAT Deploy](pics/uatDeploy.jpg)
 
+#HSLIDE
+### Adding a Veracode Stage
 
 #HSLIDE
 ### Conveyor
-#### What is it, how does it work, and what are the benefits?
+
+#HSLIDE
+### Parallel Jobs
 
 
 #HSLIDE

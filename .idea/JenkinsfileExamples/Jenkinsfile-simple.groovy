@@ -6,8 +6,9 @@ node {
                     withCredentials([[$class          : 'UsernamePasswordMultiBinding',
                                       credentialsId   : 'AVC-ADMIN',
                                       passwordVariable: 'ARTIFACTORY_PASSWORD',
-                                      usernameVariable: 'ARTIFACTORY_USER'
+                                      usernameVariable: 'USERNAME'
                                      ]]) {
+
                         Client:
                         {
                             sh 'cd client && \
