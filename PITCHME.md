@@ -13,7 +13,7 @@
     * Deployments are less error-prone and more repeatable
     * Anyone on the team can deploy software
     * Devs spend time developing (instead of performing a time-consuming, thankless task)
-    * More frequent releases 
+    * More frequent releases
 
 #HSLIDE
 ### Jenkinsfile
@@ -68,13 +68,13 @@
     * Without node, the pipeline can't do any work!
   * (Line 2) Checkout the source code for this project
   * This is a quick easy way to access the correct version of the source code
-  
+
 #HSLIDE
 ### Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
   * (Line 3) Create a Test stage
     * This name displays as a step on your pipeline
-  * (Line 5) Set up a docker container 
+  * (Line 5) Set up a docker container
     * This tells it to run inside a specific docker image
 
 #HSLIDE
@@ -124,7 +124,7 @@
 ### Storing Credentials on Jenkins
 ![Add Credentials 2](pics/addCredentials2.jpg)
   * For passwords in your .yml file, use Secret Text
-  * For certs, use secret file 
+  * For certs, use secret file
 
 #HSLIDE
 ### Storing Credentials on Jenkins
@@ -145,7 +145,7 @@
 
 #HSLIDE
 ### Deploying to DEV
-![Dev Deploy](pics/devDeploy.jpg)
+![Dev Deploy](pics/devDeploy1.jpg)
 
 
 
