@@ -9,6 +9,9 @@
   * Jenkins Definition:
     * Automation server which can be used to automate tasks such as building, testing, and deploying software
   * Life before automating software deployment
+
+#HSLIDE
+### Jenkins
   * Benefits of Automated Software:
     * Deployments are less error-prone and more repeatable
     * Anyone on the team can deploy software
@@ -19,8 +22,7 @@
 ### Jenkinsfile
   * Life before a Jenkinsfile:
 
-<!-- ![JenkinsGUI](pics/lifeBeforeJenkinsfile.jpg) -->
-<img src="pics/lifeBeforeJenkinsfile.jpg" style="height: 400px;"/>
+<img src="pics/lifeBeforeJenkinsfile.jpg" style="height: 1000px;"/>
 
 #HSLIDE
 ### Jenkinsfile
