@@ -20,7 +20,7 @@
   * Life before a Jenkinsfile:
 
 <!-- ![JenkinsGUI](pics/lifeBeforeJenkinsfile.jpg) -->
-<img src="pics/lifeBeforeJenkinsfile.jpg" style="height: 200px;"/>
+<img src="pics/lifeBeforeJenkinsfile.jpg" style="height: 400px;"/>
 
 #HSLIDE
 ### Jenkinsfile
