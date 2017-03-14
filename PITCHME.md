@@ -6,9 +6,9 @@
 
 #HSLIDE
 ### Jenkins
-  * Life before automating software deployment
   * Jenkins Definition:
     * Automation server which can be used to automate tasks such as building, testing, and deploying software
+  * Life before automating software deployment
   * Benefits of Automated Software:
     * Deployments are less error-prone and more repeatable
     * Anyone on the team can deploy software
@@ -38,6 +38,10 @@
     * Which we will all have to do at the end of Q2 (~June)
  2. Version Control    
  3. Easier to see logic hidden behind each job
+
+ #HSLIDE
+ ### Benefits of using a Jenkinsfile
+
  4. Portability
     * Get up and running quickly when you move to a new team
  5. Supports more complexity (because it's groovy code)
@@ -49,7 +53,6 @@
   2. Let Gradle do the heavy lifting
     * Gradle has many plugins that allow tasks, such as adding your deployable artifact or pushing your app to Cloud Foundry, to be run simply by providing the config info to the plugin
     * Allows for a clean pipeline
-
   3. Use 'Pipeline Syntax' to help generate syntax for various tasks
 
 #HSLIDE
@@ -70,7 +73,7 @@
   * (Line 1) Allocate an executor and workspace for the pipeline
     * Without node, the pipeline can't do any work!
   * (Line 2) Checkout the source code for this project
-  * This is a quick easy way to access the correct version of the source code
+    * This is a quick easy way to access the correct version of the source code
 
 #HSLIDE
 ### Test and Publish Stage (Part 1: Setup)
@@ -118,6 +121,10 @@
   * (Line 33) Add a checkpoint (Optional)
     * Goes outside the node closure
     * This tells Jenkins to save the current state so if it fails after this point it can be restarted at this checkpoint
+
+#HSLIDE
+### Storing Credentials on Jenkins
+![Credentials](pics/jenkinsCredentials.jpg)
 
 #HSLIDE
 ### Storing Credentials on Jenkins
