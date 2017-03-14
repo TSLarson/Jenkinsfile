@@ -64,6 +64,7 @@
   5. Deploy UAT
   6. Veracode
   7. Conveyor
+  8. Saving Unit Tests
   8. Parallel Jobs
   9. Demo
 
@@ -180,13 +181,34 @@
 
 #HSLIDE
 ### Adding a Veracode Stage
+  * Veracode is a tool used for static code analysis.
+    * Identifies potential security flaws and explains the risks and common fixes to said flaws
+  * App teams are required to integrate Veracode scanning into their continuous integration pipelines  
+
+#HSLIDE
+### Adding a Veracode Stage
+Add picture of Veracode Stage
+
 
 #HSLIDE
 ### Conveyor
+  * Uses blue green deployment
+    * Runs two identical production environments called Blue and Green
+    * At any time, only one of the environments is live, with the live environment serving all production traffic
+  * Setup Conveyor by using a step in your build script and using the class ConveyorJenkinsPlugin  
+  * From the script generator select step: General Build Step. Then select the Conveyor Plugin (version) under Build Step and the Conveyor form will appear.
+
+#HSLIDE
+###Saving Unit Test Results
+  * Audit/compliance has required that we saved our unit test results and the commit sha
+  * When conveyor raises the change with the artifact URL,
+    * unit test results can be seen
+    * new stories added since last release is visible
+    * auditors can make sure stories have been accepted by product owner
 
 #HSLIDE
 ### Parallel Jobs
-
+  * Speeds up the build process
 
 #HSLIDE
 ### fin.
