@@ -19,7 +19,8 @@
 ### Jenkinsfile
   * Life before a Jenkinsfile:
 
-![JenkinsGUI](pics/lifeBeforeJenkinsfile.jpg)
+<!-- ![JenkinsGUI](pics/lifeBeforeJenkinsfile.jpg) -->
+<img src="pics/lifeBeforeJenkinsfile.jpg" style="height: 200px;"/>
 
 #HSLIDE
 ### Jenkinsfile
@@ -39,9 +40,8 @@
  2. Version Control    
  3. Easier to see logic hidden behind each job
 
- #HSLIDE
- ### Benefits of using a Jenkinsfile
-
+#HSLIDE
+### Benefits of using a Jenkinsfile
  4. Portability
     * Get up and running quickly when you move to a new team
  5. Supports more complexity (because it's groovy code)
