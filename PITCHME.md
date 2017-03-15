@@ -30,9 +30,13 @@
 ![Jenkinsfile Example](pics/JenkinsfileExample.jpg)
 
 #HSLIDE
+### Jenkinsfile v. GUI
+![Jenkinsfile Example](pics/comparison.jpg)
+
+
+#HSLIDE
 ### Jenkinsfile
   * Add to the root of the project
-
 ![Jenkinsfile Location](pics/Where_is_a_jenkinsfile.jpg)
 
 #HSLIDE
@@ -153,7 +157,7 @@
 
 #HSLIDE
 ### Accessing Credentials in a Jenkinsfile
-<img src="pics/PipelineSyntax2.jpg" style="height: 900px;"/>
+<img src="pics/PipelineSyntax2.jpg" style="height: 700px;"/>
   * In this example, you would access USERNAME in the Jenkinsfile by using env.MY_USERNAME
 
 #HSLIDE
@@ -186,11 +190,6 @@
   * Veracode is a tool used for static code analysis.
     * Identifies potential security flaws and explains the risks and common fixes to said flaws
   * App teams are required to integrate Veracode scanning into their continuous integration pipelines  
-
-#HSLIDE
-### Adding a Veracode Stage
-Add picture of Veracode Stage
-
 
 #HSLIDE
 ### Conveyor
