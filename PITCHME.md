@@ -94,7 +94,7 @@
 ### Test and Publish Stage (Part 1: Setup)
 ![Test Step 1](pics/TestStep1.jpg)
   * (Line 7-10) Set up your Credentials
-    * credentialsId is pulled from the Jenkins credentials store and by default is a random GUID
+    * credentialsId is pulled from the Jenkins credentials store and by default is a random GUID (globally unique identifier)
     * can be specified to something more user friendly by adding variable
 
 #HSLIDE
